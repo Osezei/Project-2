@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 710px;
+  margin: 0 auto 0 auto;
+}
+
+body {
+  background-image: url('./Images/background.png');
+
+  background-repeat: no-repeat;
+  font-family: 'Archivo', sans-serif;
+}
+
+/* media queries */
+@media (max-width: 68em) {
+  .container {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  html {
+    font-size: 95%;
+  }
+}
+
+@media (max-width: 24em) {
+  html {
+    font-size: 70%;
+  }
+}
